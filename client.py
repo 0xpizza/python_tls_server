@@ -9,7 +9,7 @@ r = requests.get('https://localhost:10023', verify=False)
 
 print(r.content.decode())
 
-# alternaatively you can even use your WEB BROWSER!!!!!
+# alternatively you can even use your WEB BROWSER!!!!!
 # you'll have to add a security exception for the localhost though,
 # because it's a self-signed certificate and all.
 
@@ -18,5 +18,5 @@ print(r.content.decode())
 
 # enjoy
 
-input('press any key to continue')
+input('press Enter to continue')
 
