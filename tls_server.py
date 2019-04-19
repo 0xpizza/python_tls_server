@@ -12,7 +12,7 @@ context.load_cert_chain( certfile='certificate.pem'
                         ,password=key_pass)
                         
 bindsocket = socket.socket()
-bindsocket.bind(('0.0.0.0', 10023))
+bindsocket.bind(('localhost', 10023))
 bindsocket.listen(5)
 
 def deal_with_client(connstream):
